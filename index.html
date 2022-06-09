@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div id="calculator__history" class="calculator__history"></div>
+        <div id="calculator__result" class="calculator__result"></div>
+        <div class="calculator__keyboard">
+            <div class="calculator__row">
+                <button data-action="%" class="calculator__btn">%</button>
+                <button data-action="C"  class="calculator__btn">C</button>
+                <button data-action="delete" class="calculator__btn">Delete</button>
+                <button data-action="/" class="calculator__btn calculator__btn--blue">Devide</button>
+            </div>
+            <div class="calculator__row">
+                <button data-action="7" class="calculator__btn">7</button>
+                <button data-action="8" class="calculator__btn">8</button>
+                <button data-action="9" class="calculator__btn">9</button>
+                <button data-action="*" class="calculator__btn calculator__btn--blue">X</button>
+            </div>
+            <div class="calculator__row">
+                <button data-action="4" class="calculator__btn">4</button>
+                <button data-action="5" class="calculator__btn">5</button>
+                <button data-action="6" class="calculator__btn">6</button>
+                <button data-action="-" class="calculator__btn calculator__btn--blue">-</button>
+            </div>
+            <div class="calculator__row">
+                <button data-action="1" class="calculator__btn">1</button>
+                <button data-action="2" class="calculator__btn">2</button>
+                <button data-action="3" class="calculator__btn">3</button>
+                <button data-action="+" class="calculator__btn calculator__btn--blue">+</button>
+            </div>
+            <div class="calculator__row">
+                <button data-action="-1" class="calculator__btn">+/-</button>
+                <button data-action="0" class="calculator__btn">0</button>
+                <button data-action="." class="calculator__btn">,</button>
+                <button data-action="=" class="calculator__btn calculator__btn--orange">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./main.js"></script>
+</html>
